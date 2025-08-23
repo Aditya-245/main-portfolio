@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    flex-shrink:2;
+    flex-shrink:1;
 }
 
 body{
@@ -26,7 +26,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:0.5rem;
+    gap:0.5vw;
 }
 #profile img{
     border-radius: 50%;
@@ -51,12 +51,12 @@ body{
 #portfolio-image img{
     align-items: center;
     position: relative;
-    margin-right: 5rem;
+    margin-right: 5vw;
     height:29.8vw;
     width:30vw;
     border-radius: 50%;
     z-index: 999;
-    filter:drop-shadow(2px 2px 10px rgba(59, 28, 50, 0.6));
+    filter:drop-shadow(0.104vw 0.104vw 0.52vw rgba(59, 28, 50, 0.6));
     background-color: rgb(59, 28, 50);
 }
 
@@ -76,7 +76,7 @@ body{
     text-decoration: none;
     color: #3a2d28;
     font-size: 1.5vw;
-    padding:5px;
+    padding:0.26vw;
 }
 #nav a:hover{
 border-radius: 10%;
@@ -94,8 +94,8 @@ border-radius: 10%;
 }
 #box{
     margin-left: 5vw;
-    box-shadow: 0px 0px 20px rgba(59, 28, 50, 0.6);
-    border: 2px solid #edabc8;
+    box-shadow: 0px 0px 1.04vw rgba(59, 28, 50, 0.6);
+    border: 0.104vw solid #edabc8;
 
 
 }
@@ -106,16 +106,16 @@ border-radius: 10%;
     position:relative;
     gap:1.2vw;
     padding:1vw;
-    letter-spacing: 1px;
+    letter-spacing: 0.052vw;
 }
 h1{
-    font-size:4rem;
+    font-size:4vw;
 }
 h3{
-    font-size: 1.8rem;
+    font-size: 1.8vw;
 }
 p{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 #skills{
     width:100%;
@@ -131,7 +131,7 @@ p{
     margin:auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 20px rgba(59, 28, 50, 0.6);
+    box-shadow: 0px 0px 1.04vw rgba(59, 28, 50, 0.6);
     border: 2px solid #edabc8;
 }
 #softskills{
@@ -140,20 +140,20 @@ p{
     margin:auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 20px rgba(59, 28, 50, 0.6);
-    border: 2px solid rgba(237, 171, 200, 0.6);
+    box-shadow: 0px 0px 1.04vw rgba(59, 28, 50, 0.6);
+    border: 0.104vw solid rgba(237, 171, 200, 0.6);
 }
 #heading{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
     width:100%;
     padding: 0.5vw;
-    border-bottom: 2px solid rgba(237, 171, 200, 0.6);
+    border-bottom: 0.104vw solid rgba(237, 171, 200, 0.6);
 }
 .content h3{
-    padding: 0.7rem;
+    padding: 0.7vw;
 }
 
 .content {
@@ -161,7 +161,7 @@ p{
     flex-direction: row;
     gap: 2vw;
     justify-content: space-evenly;
-    padding: 4rem;
+    padding: 4vw;
 }
 #html{
     display: flex;
@@ -249,7 +249,7 @@ p{
     height:100vh;
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:2vw;
     align-content: center;
     justify-content: center;
 }
@@ -261,8 +261,8 @@ p{
     padding: 2rem;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 20px rgba(59, 28, 50, 0.6);
-    border: 2px solid rgba(237, 171, 200, 0.6);
+   box-shadow: 0px 0px 1.04vw rgba(59, 28, 50, 0.6);
+    border: 0.104vw solid rgba(237, 171, 200, 0.6);
 }
 #pdf{
     height: 3vw;
@@ -277,19 +277,19 @@ p{
 #info{
     display:flex;
     flex-direction: column;
-    box-shadow: 0px 0px 20px rgba(59, 28, 50, 0.6);
-    border: 2px solid rgba(237, 171, 200, 0.6);
+    box-shadow: 0px 0px 1.04vw rgba(59, 28, 50, 0.6);
+    border: 0.104vw solid rgba(237, 171, 200, 0.6);
     height: fit-content;
     width: fit-content;
-    padding: 4rem;
-    gap:2rem;
+    padding: 4vw;
+    gap:2vw;
     justify-content: center;
     align-items: center;
 }
 #contact-box{
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:2vw;
 }
 #nav1 a{
     text-transform: capitalize;
@@ -305,7 +305,7 @@ p{
     margin-right:2.5vw;
 }
 #logo img{
-    filter:drop-shadow(2px 2px 10px rgba(59, 28, 50, 0.6));
+    filter:drop-shadow(0.104vw 0.104vw 0.52vw rgba(59, 28, 50, 0.6));
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
