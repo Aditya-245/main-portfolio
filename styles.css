@@ -352,8 +352,8 @@ p{
     flex-direction:column;
     gap: 1vw;
 }
-#comment p{
-    font-size: 1.5vw;
+#comment h3{
+    font-size: 1.8vw;
     font-weight: 800;
 }
 #feedback{
@@ -437,7 +437,7 @@ p{
     text-transform: capitalize;
     text-decoration: none;
     color: #f8fafc;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 #logo{
@@ -472,7 +472,7 @@ p{
 /* Responsive styles for mobile devices */
 @media (max-width: 600px) {
     body {
-        font-size: 4vw;
+        font-size: 5vw;
         padding: 2vw;
     }
     #header, #nav, #logo {
@@ -497,6 +497,10 @@ p{
         width: 60vw;
         height: 60vw;
         margin: 0 auto;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        margin-top:50%;
     }
     #skills, #languages, #softskills, #qualifications {
         flex-direction: column;
@@ -512,25 +516,33 @@ p{
         padding: 2vw;
         align-items: center;
     }
-    #logo img, #html img, #css img, #cpp img, #python img, #Teamwork img, #Problem-Solving img, #Communication img, #Time-Management img {
+    #comment h3{
+        font-size: 5vw;
+        text-align: center;
+    }
+    #html img, #css img, #cpp img, #python img, #Teamwork img, #Problem-Solving img, #Communication img, #Time-Management img {
         width: 12vw;
         height: 12vw;
     }
+    #logo img {
+        width: 6vw;
+        height: 6vw;
+    }
     h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
     h3 {
         font-size: 4vw;
     }
-    p {
-        font-size: 3vw;
+    p{
+        font-size:3vw;
     }
     #feedback {
         width: 90vw;
         height: auto;
         padding: 2vw;
     }
-    #feedback input, #feedback textarea {
+    #feedback textarea {
         font-size: 4vw;
         padding: 2vw;
     }
@@ -551,6 +563,9 @@ p{
         flex-direction: column;
         padding: 2vw;
         width: 90vw;
+    }
+    #nav1 a{
+        font-size: 4vw;
     }
 }
 
