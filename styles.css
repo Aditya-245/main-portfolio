@@ -469,4 +469,89 @@ p{
     transition: transform 0.3s ease;
 }
 
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+    body {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+    #header, #nav, #logo {
+        flex-direction: column;
+        gap: 2vw;
+        align-items: center;
+        margin: 0;
+    }
+    #home {
+        flex-direction: column;
+        gap: 4vw;
+        padding-top: 8vw;
+        height: auto;
+    }
+    #home h1 {
+        font-size: 8vw;
+        padding-left: 0;
+        padding-top: 2vw;
+        text-align: center;
+    }
+    #portfolio-image img {
+        width: 60vw;
+        height: 60vw;
+        margin: 0 auto;
+    }
+    #skills, #languages, #softskills, #qualifications {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 4vw 0;
+        padding: 2vw;
+    }
+    .content {
+        flex-direction: column;
+        gap: 3vw;
+        padding: 2vw;
+        align-items: center;
+    }
+    #logo img, #html img, #css img, #cpp img, #python img, #Teamwork img, #Problem-Solving img, #Communication img, #Time-Management img {
+        width: 12vw;
+        height: 12vw;
+    }
+    h1 {
+        font-size: 7vw;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+    #feedback {
+        width: 90vw;
+        height: auto;
+        padding: 2vw;
+    }
+    #feedback input, #feedback textarea {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+    #feedback button {
+        font-size: 4vw;
+        padding: 2vw 8vw;
+    }
+    #info {
+        padding: 2vw;
+        width: 90vw;
+    }
+    #contact {
+        flex-direction: column;
+        gap: 4vw;
+        height: auto;
+    }
+    .box {
+        flex-direction: column;
+        padding: 2vw;
+        width: 90vw;
+    }
+}
+
 
