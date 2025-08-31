@@ -5,5 +5,9 @@ body.addEventListener("mousemove",function(det){
     curs.style.top = det.clientY + "px";
 
 })
-var box =document.querySelector("#box")
-box.addEventListener("")
+var button=document.querySelector("#feedback button")
+button.addEventListener("click", function(){
+       var feedback = document.querySelector("#feedback textarea").value;
+       
+}
+)
